@@ -133,3 +133,12 @@
   text-transform: inherit;
   background: transparent;
 }
+
+.lots {
+  padding: 179px 24px 181px;
+}
+
+.card {
+  position: relative;;
+}
+
