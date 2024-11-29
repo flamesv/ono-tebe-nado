@@ -1,1 +1,135 @@
-/* место для вашего кода */
+.header {
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  padding: 92px 51px;
+  font-size: 18px;
+  letter-spacing: 0.01em;
+  text-underline-offset: 4px;
+}
+
+.header__menu {
+  line-height: 21px;
+}
+
+.header__links-list {
+  display: flex;
+  flex-direction: row;
+  gap: 31px;
+  padding-top: 44px;
+}
+
+.header__links-list-item_no-bullet {
+  list-style: none;
+}
+
+.header__links-list-item {
+  text-decoration: underline;
+  list-style: circle;
+}
+
+.header__logo {
+  width: 148px;
+}
+
+.header__logo-image {
+  height: 105px;
+}
+
+.header__address {
+  justify-self: end;
+  width: 240px;
+  padding-top: 6px;
+  line-height: 24.3px;
+}
+.header__address a {
+  letter-spacing: 0.01em;
+}
+
+.cover {
+  position: relative;
+  padding: 165px 50px 50px;
+  color: #fff;
+  background-image: url("../images/cover.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.cover__title {
+  margin-bottom: 135px;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 1.15em;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+}
+
+.aligned-text {
+  display: block;
+}
+
+.aligned-text_center {
+  padding-top: 20px;
+  line-height: 1em;
+  text-align: center;
+}
+
+.aligned-text_right {
+  padding-top: 20px;
+  line-height: 1em;
+  text-align: right;
+}
+
+.letter-spacing-extended {
+  letter-spacing: 0.6em;
+}
+
+.no-letter-spacing {
+  letter-spacing: initial;
+}
+
+.cover__description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 22px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.cover__description-text_ls-80 {
+  letter-spacing: 0.8em;
+}
+
+.cover__description-text_ls-90 {
+  letter-spacing: 0.9em;
+}
+
+.cover__description-text_ls-110 {
+  letter-spacing: 1.1em;
+}
+
+.cover__title,
+.cover__description {
+  position: relative;
+  z-index: 1;
+}
+
+.cover__description-text {
+  padding-left: 28px;
+}
+
+.bet-button {
+  border: 1px solid white;
+  padding: 12px 32px 11px 31px;
+  color: currentColor;
+  font-size: inherit;
+  text-transform: inherit;
+  background: transparent;
+}
