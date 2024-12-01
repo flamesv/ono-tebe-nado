@@ -19,12 +19,14 @@
 }
 
 .header__links-list-item {
-  text-decoration: underline;
   list-style: circle;
-  text-indent: 1px;
 }
 
-.header__links-list-item_no-bullet {
+.header__link_active {
+  text-decoration: none;
+}
+
+.header__links-list-item:first-child {
   list-style: none;
 }
 
@@ -94,7 +96,7 @@
   text-align: right;
 }
 
-.letter-spacing-extended {
+.letter-spacing-tiny {
   letter-spacing: 0.6em;
 }
 
@@ -111,15 +113,15 @@
   text-transform: uppercase;
 }
 
-.cover__description-text_ls-80 {
+.letter-spacing-small {
   letter-spacing: 0.8em;
 }
 
-.cover__description-text_ls-90 {
+.letter-spacing-medium {
   letter-spacing: 0.9em;
 }
 
-.cover__description-text_ls-110 {
+.letter-spacing-large {
   letter-spacing: 1.1em;
 }
 
@@ -282,23 +284,23 @@
   padding-right: 3px;
 }
 
-.about__text-ls-minus-1 {
+.about__text-letter-spacing-negative-small {
   letter-spacing: -0.01em;
 }
 
-.about__text-ls-1 {
+.about__text-letter-spacing-small {
   letter-spacing: 0.01em;
 }
 
-.about__text-ls-2 {
+.about__text-letter-spacing-medium {
   letter-spacing: 0.02em;
 }
 
-.about__text-ls-3 {
+.about__text-letter-spacing-large {
   letter-spacing: 0.03em;
 }
 
-.about__text-ls-4 {
+.about__text-letter-spacing-xlarge {
   letter-spacing: 0.04em;
 }
 
